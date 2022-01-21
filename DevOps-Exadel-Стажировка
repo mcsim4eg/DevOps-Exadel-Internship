@@ -1,0 +1,10 @@
+
+
+
+
+
+
+//Перезапуск фаервола и добавле правила
+sudo ufw service stop   //Проверка, попытка подключения
+sudo ufw service start
+sudo ufw allow openssh
